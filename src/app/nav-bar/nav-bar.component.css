@@ -1,0 +1,82 @@
+a{
+    text-decoration: none;
+    color:#646464 ;
+}
+a:hover{
+    text-decoration: none;
+    color:#CAA892 ;
+}
+
+button{
+    width: 97px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 15px 0px;
+    background: #CAA892;
+    margin-left: 5em;
+    margin-top:-0.1em ;
+}
+
+button:hover{
+    cursor: pointer;
+    width: 97px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 15px 0px;
+    background: #e6cfbf;
+    margin-left: 5em;
+}
+
+ul{
+    color: #646464;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    list-style-type: none ;
+    margin-right: 10px;
+}
+
+ul li{
+    margin-left: 2em; 
+}
+
+
+.responsive{
+    display: none;
+}
+
+/* Responsive navbar */
+@media  (max-width:1024px) {
+    li{
+        display: none; 
+    }
+    button{
+        display: none;
+    }
+
+    span{
+        cursor: pointer;
+    }
+
+    .btn{
+        cursor: pointer;
+        width: 97px;
+        height: 32px;
+        flex-shrink: 0;
+        border-radius: 15px 0px;
+        background: #e6cfbf;
+        margin-left: 1em;
+    }
+    .responsive{
+        display: block;
+        margin-left: 60%;
+    }
+
+    .responsive .berger{
+        height: 50%;
+        border-radius: 0px 15px;
+    }
+}
+

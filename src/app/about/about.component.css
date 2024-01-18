@@ -1,0 +1,193 @@
+img{
+    position: absolute;
+    width: 481px;
+    height: 526px;
+    flex-shrink: 0;
+    border-radius: 140px 0px;
+    border: 2px solid #fafafa;
+
+}
+h5{
+    color: #646464;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+}
+
+h1{
+    color: #212121;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57px; /* 118.75% */
+}
+
+p{
+    color: #646464;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    text-align: justify;
+}
+button{
+    width: 142.154px;
+    height: 42.808px;
+    flex-shrink: 0;
+    border-radius: 20px 0px;
+    background: #37806B;
+    color: #fafafa;
+}
+
+h3{
+    font-size: 10em;
+    color: #B0855B;
+}
+h2{
+    color: #212121;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 65px; /* 130% */
+    letter-spacing: 2px;
+}
+.deco{
+    position: absolute;
+    width: 481px;
+    height: 526px;
+    flex-shrink: 0;
+    border-radius: 140px 0px;
+    border: 2px solid #B0855B;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+.card{
+    width: 185px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 40px 0px;
+    background: #FFF;
+    box-shadow: 0px 13px 16px 0px rgba(0, 0, 0, 0.10);
+}
+
+.title{
+    margin-top: 3%;
+    color: #212121;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px; /* 125% */
+    text-align: center;
+}
+h6{
+    color: #212121;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 120% */
+    text-align: center;
+    margin-top: 8%;
+}
+
+h4{
+    color: #646464;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+svg{
+    width: 100px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+.monial{
+    color: #646464;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.client{
+    color: #212121;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.louis{
+    width: 471px;
+    height: 226px;
+    flex-shrink: 0;
+    border-radius: 70px 0px;
+    background: #FFF;
+    box-shadow: 7px 7px 30px 5px rgba(66, 96, 84, 0.15);
+}
+.louis p{
+    color: #646464;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    margin-left: 10%;
+    text-align: justify;
+    padding: 0;
+}
+.louis .titre{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.louis .titre h1{
+    color: #212121;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.louis .titre span{
+    color: #B0855B;
+    font-family: Open Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+b{
+    color: #B0855B;
+    font-family: Basic Sans SF;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.loui>img{
+    width: 150px;
+    height: 180px;
+    flex-shrink: 0;
+    margin-left: -8%;
+    border-radius: 70px 0px;
+    margin-top: 2%;
+
+}

@@ -1,0 +1,33 @@
+<nav class="container-fluid  mt-4 ">
+    <div class="row justify-content-center ">
+        <!-- logo -->
+        <div class="col-3">
+            <div class="before">
+                <img [src]="logo" alt="">
+            </div>
+        </div>
+
+        <!-- liste des menus -->
+       <div class="mt-3 col-8 d-flex justify-content-center ">
+            <ul class="menu d-flex justify-content-around">
+                <li  *ngFor="let menu of ListMenu">
+                    <a [href]="menu.link">{{menu.name}}</a>
+                </li>
+            </ul>
+            <button class="btn ">Sign Up</button>
+            <div class="responsive">
+                <span class="material-icons" (click)="toggleNavbar()">menu</span>
+                <div  *ngIf="navbarOpen" class="berger bg-dark w-100 h-100">
+                    <ul>
+                        <p *ngFor="let menu of ListMenu">
+                            <a  class="mt-3 " [href]="menu.link">{{menu.name}}</a>
+                        </p>
+                    </ul>
+                    <span class="btn ">Sign Up</span>
+                </div>
+            </div>
+       </div>
+    </div>
+    <!--  -->
+    
+</nav>

@@ -1,0 +1,134 @@
+.container .col-12 h1{
+    color: #111;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 58.333% */
+    text-align: center;
+}
+
+.container .col-12 h4{
+    color: #646464;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 140% */
+    text-align: center;
+}
+
+.row .col-6 img{
+    position: absolute;
+    width: 454px;
+    height: 287px;
+    flex-shrink: 0;
+    border-radius: 100px 0px;
+}
+
+.row .col-6 .deco{
+    width: 454px;
+    margin-left: 3%;
+    height: 287px;
+    flex-shrink: 0;
+    border-radius: 100px 0px;
+    border: 2px solid #B0855B;
+    margin-top: 3%;
+}
+
+.row .col-6 h2{
+    color: #212121;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 93.333% */
+    margin-top: 10% ;
+}
+
+.row .col-6 p{
+    color: #646464;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    text-align: justify;
+    margin-top: 2% ;
+
+}
+
+.row .col-6 button{
+    width: 271px;
+    height: 53.063px;
+    flex-shrink: 0;
+    border-radius: 25px 0px;
+    background: #37806B;
+    margin-top: 2%;
+    color: #fff;
+}
+
+.row .col-6 button:hover{
+    width: 271px;
+    height: 53.063px;
+    flex-shrink: 0;
+    border-radius: 25px 0px;
+    background: #acddcf;
+    margin-top: 2%;
+    color: #000;
+}
+
+.newsletter{
+    margin-top: 20%;
+    text-align: center;
+}
+
+.newsletter h1{
+    color: #212121;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 58.333% */
+    letter-spacing: 3.84px;
+}
+
+
+
+.newsletter span{
+    margin-top: 10%;
+    color: #646464;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+}
+
+.newsletter input{
+    width: 400px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 20px 0px 0px 0px;
+    background: #EEE; 
+    border: none;
+}
+.newsletter button{
+    width: 180px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 20px 0px;
+    background: #37806B;
+}
+
+.newsletter .separateur{
+    width: 461px;
+    height: 1px;
+    background: #C4C4C4;
+    margin-left: 25%;
+}
+
+footer{
+    background: #646464;
+}
